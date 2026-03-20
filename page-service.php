@@ -1,9 +1,5 @@
-<?php
-/*
-Template Name: Service Page 
-*/
- get_headers();
- ?>
+<?php get_header(); ?>
+
     <header class="navbar">
       <div class="nav-container">
         <!-- Logo -->
