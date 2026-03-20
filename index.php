@@ -86,7 +86,7 @@
             similique incidunt beatae.
           </p>
 
-                   <a href="<?php echo site_url('/about'); ?>">Learn More About Us</a>
+          <a href="<?php echo site_url('/about'); ?>">Learn More About Us</a>
 
         </div>
       </div>

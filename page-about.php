@@ -125,7 +125,7 @@
       </div>
     </section>
     <!-- footer -->
-    oter class="footer">
+    <footer class="footer">>
       <div class="footer-container">
         <div class="footer-col">
           <h3>WAAO India</h3>
