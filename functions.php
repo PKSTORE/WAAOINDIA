@@ -1,5 +1,4 @@
 <?php
-
 function waaoindia_styles() {
 
     wp_enqueue_style(
