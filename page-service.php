@@ -157,8 +157,10 @@
         <div class="footer-col">
           <h3>Contact</h3>
           <p>📍 New Delhi, India</p>
-          <p>📞 +91 9876543210</p>
-          <p>📧 info@waaoindia.com</p>
+          <p>📞 +91 9899373732</p>
+          <a href="mailto:support@waaoindia.com" target="_blank">
+              support@waaoindia.com
+            </a>
         </div>
       </div>
 
