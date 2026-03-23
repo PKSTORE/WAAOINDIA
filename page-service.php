@@ -1,13 +1,4 @@
-
 <?php get_header(); ?>
-=======
-<?php
-/*
-Template Name: Service Page 
-*/
- get_header();
- ?>
-
     <header class="navbar">
       <div class="nav-container">
         <!-- Logo -->
@@ -167,11 +158,9 @@ Template Name: Service Page
           <h3>Contact</h3>
           <p>📍 New Delhi, India</p>
           <p>📞 +91 9899373732</p>
-          <a href="mailto:support@waaoindia.com" target="_blank">
-              support@waaoindia.com
-            </a>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus a ab accusamus voluptatem deserunt inventore aut eveniet magnam fuga. Iste odio quod architecto optio a dolor eius doloremque tempore quis.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid itaque vel autem quos iusto libero hic repellendus id amet ipsa deserunt, at quidem possimus cum consequatur fugit quod recusandae non.</p>
+          <a href="mailto:support@waaoindia.com" target="_blank" class="Footer-btn">
+            support@waaoindia.com
+           </a>
         </div>
       </div>
 

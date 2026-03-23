@@ -19,7 +19,7 @@
 
         <!-- Button -->
         <div class="nav-btn">
-          <a href="#">Get Started</a>
+          <a href="<?php echo site_url('/contact'); ?>">Get Started</a>
         </div>
 
         <!-- Mobile Menu Icon -->
@@ -105,7 +105,7 @@
         <div class="mission-box">
           <h2>Our Mission</h2>
           <p>
-            Our mission at <a href="index.html">WAAO India</a> is to empower
+            Our mission at <a href="<?php echo site_url('/'); ?>">waaoindia</a> is to empower
             entrepreneurs and small business owners by providing practical
             guidance, reliable resources, and expert insights. We aim to help
             individuals transform their ideas into sustainable businesses and
@@ -157,11 +157,13 @@
         </div>
 
         <div class="footer-col">
-          <h3>Contact</h3>
+         <h3>Contact</h3>
           <p>📍 New Delhi, India</p>
-          <p>📞 +91 9876543210</p>
-          <p>📧 info@waaoindia.com</p>
-        </div>
+          <p>📞 +91 9899373732</p>
+          <a href="mailto:support@waaoindia.com" target="_blank" class="Footer-btn">
+            support@waaoindia.com
+           </a>
+          </div>
       </div>
 
       <div class="footer-bottom">

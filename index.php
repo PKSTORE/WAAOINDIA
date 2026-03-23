@@ -47,7 +47,7 @@
             ideas into successful businesses.
           </p>
 
-         <a href="<?php echo site_url('/contact'); ?>">Get a Free Consulting</a>
+         <a href="<?php echo site_url('/contact'); ?>" class="cta-btn">Get a Free Consulting</a>
         </div>
 
         <div class="hero-image">
@@ -86,7 +86,7 @@
             similique incidunt beatae.
           </p>
 
-          <a href="<?php echo site_url('/about'); ?>">Learn More About Us</a>
+          <a href="<?php echo site_url('/about'); ?>" class="cta-btn">Learn More About Us</a>
 
         </div>
       </div>
@@ -241,9 +241,11 @@
         <div class="footer-col">
           <h3>Contact</h3>
           <p>📍 New Delhi, India</p>
-          <p>📞 +91 9876543210</p>
-          <p>📧 info@waaoindia.com</p>
-        </div>
+          <p>📞 +91 9899373732</p>
+          <a href="mailto:support@waaoindia.com" target="_blank" class="Footer-btn">
+            support@waaoindia.com
+           </a>
+          </div>
       </div>
 
       <div class="footer-bottom">
