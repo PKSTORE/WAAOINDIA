@@ -792,7 +792,9 @@ a {
   margin-bottom: 30px;
   line-height: 1.7;
 }
-
+.Footer-btn{
+  color: white;
+}
 .cta-btn {
   background: #f4b942;
   padding: 15px 35px;
