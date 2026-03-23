@@ -170,6 +170,7 @@ Template Name: Service Page
           <a href="mailto:support@waaoindia.com" target="_blank">
               support@waaoindia.com
             </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid itaque vel autem quos iusto libero hic repellendus id amet ipsa deserunt, at quidem possimus cum consequatur fugit quod recusandae non.</p>
         </div>
       </div>
 
