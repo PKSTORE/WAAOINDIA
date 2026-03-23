@@ -1,4 +1,13 @@
+
 <?php get_header(); ?>
+=======
+<?php
+/*
+Template Name: Service Page 
+*/
+ get_header();
+ ?>
+
     <header class="navbar">
       <div class="nav-container">
         <!-- Logo -->
