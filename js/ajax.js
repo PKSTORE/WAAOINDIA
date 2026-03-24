@@ -1,56 +1,29 @@
 document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll(".custom-form").forEach((form) => {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
+  const form = document.getElementById("contactForm");
 
-      let isValid = true;
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
 
-      const name = form.querySelector('[name="name"]');
-      const phone = form.querySelector('[name="phone"]');
+    let formData = new FormData(form);
+    formData.append("action", "send_form");
 
-      const successMsg = form.querySelector(".success-msg");
+    fetch(ajax_object.ajax_url, {
+      method: "POST",
+      body: formData,
+    })
+      .then((res) => res.text())
+      .then((data) => {
+        const successMsg = form.querySelector(".success-msg");
 
-      // reset
-      form.querySelectorAll(".error").forEach((el) => (el.textContent = ""));
-      if (successMsg) successMsg.textContent = "";
-
-      // validation
-      if (!name.value.trim() || name.value.trim().length < 3) {
-        showError(name, "Enter valid name");
-        isValid = false;
-      }
-
-      if (!/^[6-9]\d{9}$/.test(phone.value.trim())) {
-        showError(phone, "Enter valid 10-digit phone");
-        isValid = false;
-      }
-
-      if (!isValid) return;
-
-      let formData = new FormData(form);
-      formData.append("action", "send_form");
-
-      fetch(ajax_object.ajax_url, {
-        method: "POST",
-        body: formData,
-      })
-        .then((res) => res.text())
-        .then((data) => {
-          if (successMsg) {
-            successMsg.textContent = "Form submitted successfully!";
-          }
+        if (data === "success") {
+          successMsg.textContent = "Form submitted successfully!";
           form.reset();
-        })
-        .catch((err) => {
-          console.error("Error:", err);
-        });
-    });
+        } else {
+          successMsg.textContent = "Something went wrong!";
+        }
+      })
+      .catch((err) => {
+        console.error(err);
+      });
   });
 });
-
-function showError(input, message) {
-  let error = input.parentElement.querySelector(".error");
-  if (error) {
-    error.textContent = message;
-  }
-}

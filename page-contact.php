@@ -35,7 +35,7 @@
 
         <div class="contact-form-area">
           <h2>Contact Us</h2>
- <form class="custom-form">
+ <form id="contactForm" class="custom-form">
 
   <div class="form-group">
     <input type="text" name="name" placeholder="Your name" required>
@@ -43,12 +43,12 @@
   </div>
 
   <div class="form-group">
-    <input type="tel" name="phone" placeholder="Your phone" required>
+    <input type="text" name="phone" placeholder="Your phone" required>
     <small class="error"></small>
   </div>
 
   <div class="form-group">
-    <input type="email" name="email" placeholder="Your mail" required>
+    <input type="email" name="email" placeholder="Your email" required>
     <small class="error"></small>
   </div>
 
@@ -58,6 +58,8 @@
   </div>
 
   <input type="hidden" name="type" value="contact">
+
+  <div class="success-msg"></div>
 
   <button type="submit">Submit Request</button>
 
