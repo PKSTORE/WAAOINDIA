@@ -40,7 +40,11 @@ function handle_form_submission() {
 
     $to = "riddhiraina.official@gmail.com"; // CHANGE THIS
 
-    else {
+    if ($type == "enquiry") {
+        $subject = "New Enquiry Received";
+    } elseif ($type == "complaint") {
+        $subject = "New Complaint Received";
+    } else {
         $subject = "New Contact Request";
     }
 
