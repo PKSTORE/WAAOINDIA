@@ -611,11 +611,19 @@ a {
     order: 2;
   }
 
-  .about-image {
-    order: 1;
+  .about-image img {
+    width: 100%;
+        max-width: 159px;
+        position: absolute;
+        top: 186%;
+        left: 10%;
   }
 }
 
+@media(Max-width: 527px){
+
+
+}
 /* services grid  */
 .services-grid {
   padding: 100px 8%;
