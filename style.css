@@ -607,7 +607,7 @@ a {
     text-align: left;
     gap: 20px;
   }
-    .help-grid{
+    .help-grid .help-box{
       display: grid;
       gap: 20px;
     }
@@ -629,7 +629,10 @@ a {
   display: grid;
     text-align: left;
   }
-
+  .help-grid .help-box{
+      display: grid;
+      gap: 20px;
+    }
 }
 /* services grid  */
 .services-grid {
