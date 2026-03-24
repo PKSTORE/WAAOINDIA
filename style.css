@@ -603,10 +603,14 @@ a {
     grid-template-columns: 1fr;
   }
   .about-container {
-    grid-template-columns: 1fr;   /* stack */
+    display: grid;
     text-align: left;
+    gap: 20px;
   }
-
+    .help-grid{
+      display: grid;
+      gap: 20px;
+    }
   .about-text {
     order: 2;
   }
