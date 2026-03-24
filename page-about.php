@@ -5,7 +5,7 @@
         <!-- Logo -->
          <div class="logo">
           <a href="<?php echo site_url('/'); ?>">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/WAAO-logo-long.png" alt="Logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/WAAO-logo-long.webp" alt="Logo">
        </a>
         </div>
 
@@ -49,7 +49,7 @@
         </div>
 
         <div class="about-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/ABOUT-WAAO.png" alt="About-waao">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/ABOUT-WAAO.webp" alt="About-waao">
         </div>
       </div>
     </section>

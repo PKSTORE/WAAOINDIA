@@ -6,7 +6,7 @@
         <!-- Logo -->
         <div class="logo">
           <a href="<?php echo site_url('/'); ?>">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/WAAO-logo-long.png" alt="Waao-Logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/WAAO-logo-long.webp" alt="Waao-Logo">
        </a>
         </div>
 
@@ -51,7 +51,7 @@
         </div>
 
         <div class="hero-image">
- <img src="<?php echo get_template_directory_uri(); ?>/img/bussnies.png" alt="Bussnies-logo"></div>
+ <img src="<?php echo get_template_directory_uri(); ?>/img/bussnies.webp" alt="Bussnies-logo"></div>
       </div>
     </section>
     <!-- hero section 2 -->
@@ -70,7 +70,7 @@
 
       <div class="hero2-content">
         <div class="hero2-image">
- <img src="<?php echo get_template_directory_uri(); ?>/img/bussines-work.png" alt="Bussines-work"></div>
+ <img src="<?php echo get_template_directory_uri(); ?>/img/bussines-work.webp" alt="Bussines-work"></div>
 
         <div class="hero2-text">
           <h3>Helping Entrepreneurs Turn Ideas Into Businesses</h3>
