@@ -36,17 +36,29 @@
         <div class="contact-form-area">
           <h2>Contact Us</h2>
 
-          <form id="contactForm" method="post">
+          <div class="form-group">
+     <input type="text" name="name" placeholder="Your name" required>
+     <small class="error"></small>
+    </div>
 
-<input type="text" name="name" placeholder="Your Name" required>
+    <div class="form-group">
+     <input type="tel" name="phone" placeholder="Your phone" required>
+     <small class="error"></small>
+    </div>
 
-<input type="email" name="email" placeholder="Your Email" required>
+    <div class="form-group">
+    <input type="email" name="email" placeholder="Your mail" required>
+    <small class="error"></small>
+    </div>
 
-<textarea name="message" placeholder="Your Message" required></textarea>
+    <div class="form-group">
+    <textarea name="message" placeholder="Your message"></textarea>
+    <small class="error"></small>
+    </div>
 
-<input type="hidden" name="action" value="send_contact_form">
-<button type="submit">Send Message</button>
-<input type="text" name="website" style="display:none">
+   <input type="hidden" name="type" value="contact">
+
+    <button type="submit">Submit Request</button>
 
 </form>
  <p id="responseMsg"></p>
