@@ -6,7 +6,7 @@
         <!-- Logo -->
         <div class="logo">
           <a href="<?php echo site_url('/'); ?>">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/WAAO-logo-long.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/WAAO-logo-long.png" alt="Waao-Logo">
        </a>
         </div>
 

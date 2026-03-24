@@ -30,7 +30,7 @@
     <section class="contact-section">
       <div class="contact-wrapper">
         <div class="contact-image">
-          <img src="images/contact-waao.png" alt="Contact WAAO India" />
+          <img src="<?php echo get_template_directory_uri(); ?>/img/contact-waao.png" alt="Contact-waao">
         </div>
 
         <div class="contact-form-area">

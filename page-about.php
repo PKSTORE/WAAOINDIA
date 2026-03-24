@@ -49,7 +49,7 @@
         </div>
 
         <div class="about-image">
-          <img src="images/ABOUT-WAAO.png" alt="About WAAO India" />
+          <img src="<?php echo get_template_directory_uri(); ?>/img/ABOUT-WAAO.png" alt="About-waao">
         </div>
       </div>
     </section>
