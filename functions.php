@@ -1,4 +1,5 @@
 <?php
+add_theme_support('title-tag');
 function waaoindia_styles() {
 
     wp_enqueue_style(
