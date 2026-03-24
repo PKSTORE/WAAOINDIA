@@ -57,7 +57,6 @@
     <section class="about-help">
       <div class="about-help-header">
         <h2>How WAAO India Helps Entrepreneurs and Businesses</h2>
-      
         <p>
           We provide entrepreneurs with the tools, guidance, and insights needed
           to start, manage, and grow successful businesses.
@@ -65,6 +64,7 @@
       </div>
       <div class="help-grid">
         <div class="help-box">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam ducimus nihil doloribus minus animi odio veniam est minima cupiditate molestias fugiat, optio perspiciatis! Perspiciatis dignissimos commodi laborum quis odit laudantium.</p>
           <h3>Business Guidance</h3>
           <p>
             Helping entrepreneurs make informed decisions when starting and
