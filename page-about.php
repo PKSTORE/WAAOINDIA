@@ -57,9 +57,7 @@
     <section class="about-help">
       <div class="about-help-header">
         <h2>How WAAO India Helps Entrepreneurs and Businesses</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione a, quaerat eum obcaecati libero, pariatur, eligendi mollitia cumque perspiciatis nemo inventore hic odio fugiat maiores? Nisi tenetur provident dolores excepturi.
-      </p>
+      
         <p>
           We provide entrepreneurs with the tools, guidance, and insights needed
           to start, manage, and grow successful businesses.
