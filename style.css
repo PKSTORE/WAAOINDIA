@@ -629,8 +629,9 @@ a {
   display: grid;
     text-align: left;
   }
-  .help-grid .help-box{
+  .help-grid {
       display: grid;
+       grid-template-columns: 1fr;
       gap: 20px;
     }
 }

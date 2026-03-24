@@ -63,7 +63,6 @@
           to start, manage, and grow successful businesses.
         </p>
       </div>
-
       <div class="help-grid">
         <div class="help-box">
           <h3>Business Guidance</h3>
