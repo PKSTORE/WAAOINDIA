@@ -30,7 +30,7 @@
     <section class="contact-section">
       <div class="contact-wrapper">
         <div class="contact-image">
-          <img src="images/contact.jpg" alt="Contact WAAO India" />
+          <img src="images/contact-waao.png" alt="Contact WAAO India" />
         </div>
 
         <div class="contact-form-area">

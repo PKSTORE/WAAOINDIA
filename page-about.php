@@ -49,7 +49,7 @@
         </div>
 
         <div class="about-image">
-          <img src="images/about1.jpg" alt="About WAAO India" />
+          <img src="images/ABOUT-WAAO.png" alt="About WAAO India" />
         </div>
       </div>
     </section>
