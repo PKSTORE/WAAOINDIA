@@ -37,7 +37,7 @@ function handle_form_submission() {
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $message = isset($_POST['message']) ? $_POST['message'] : '';
 
-    $to = "support@waaoindia.com";
+    $to = "sharmapiyush1342@gmail.com";
 
     $subject = "New Contact Form Message";
 
