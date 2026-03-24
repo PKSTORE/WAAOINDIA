@@ -605,8 +605,6 @@ a {
   .mission-container {
     grid-template-columns: 1fr;
   }
-  @media (max-width: 768px) {
-
   .about-container {
     grid-template-columns: 1fr;
     text-align: center;
@@ -629,7 +627,6 @@ a {
     grid-template-columns: 1fr;
   }
 
-}
 }
 
 /* services grid  */
