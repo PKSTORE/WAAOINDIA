@@ -35,30 +35,31 @@
 
         <div class="contact-form-area">
           <h2>Contact Us</h2>
+ <form class="custom-form">
 
-          <div class="form-group">
-     <input type="text" name="name" placeholder="Your name" required>
-     <small class="error"></small>
-    </div>
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your name" required>
+    <small class="error"></small>
+  </div>
 
-    <div class="form-group">
-     <input type="tel" name="phone" placeholder="Your phone" required>
-     <small class="error"></small>
-    </div>
+  <div class="form-group">
+    <input type="tel" name="phone" placeholder="Your phone" required>
+    <small class="error"></small>
+  </div>
 
-    <div class="form-group">
+  <div class="form-group">
     <input type="email" name="email" placeholder="Your mail" required>
     <small class="error"></small>
-    </div>
+  </div>
 
-    <div class="form-group">
+  <div class="form-group">
     <textarea name="message" placeholder="Your message"></textarea>
     <small class="error"></small>
-    </div>
+  </div>
 
-   <input type="hidden" name="type" value="contact">
+  <input type="hidden" name="type" value="contact">
 
-    <button type="submit">Submit Request</button>
+  <button type="submit">Submit Request</button>
 
 </form>
  <p id="responseMsg"></p>
