@@ -621,7 +621,10 @@ a {
 }
 
 @media(Max-width: 527px){
-
+ .about-container {
+  display: grid;
+    text-align: left;
+  }
 
 }
 /* services grid  */
