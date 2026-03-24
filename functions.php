@@ -38,7 +38,7 @@ function handle_form_submission() {
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $message = isset($_POST['message']) ? $_POST['message'] : '';
 
-    $to = "riddhiraina.official@gmail.com"; // CHANGE THIS
+    $to = "sharmapiyush1342@gmail.com"; // CHANGE THIS
 
     if ($type == "enquiry") {
         $subject = "New Enquiry Received";
